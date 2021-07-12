@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Users</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="kafene">
+                <img src="/kafene-logo.jpg" alt="kafene-logo">
+            </div>
+            <div id="link">
+                <div class="divlink"><a href="/orders/index.html">Orders</a></div>
+                <div class="divlink"><a href="/products/index.html">Products</a></div>
+                <div class="divlink pagelink"><a href="./index.html">Users</a></div>
+            </div>
+        </div>
+        <div id="logout">
+            <a href="../index.html">Logout</a>
+        </div>
+    </header>
+    <main>
+        <h1>Users</h1>
+        <div id="form" action="">
+            <input type="text" name="user" id="user" placeholder="Search By Name">
+            <input type="reset" id="reset">
+        </div>
+        <section id="top">
+            <div id="orders">
+                <table>
+                    <tr id="head">
+                        <th>ID</th>
+                        <th>User Avatar</th>
+                        <th>Full Name</th>
+                        <th>DoB</th>
+                        <th>Gender</th>
+                        <th>Current Location</th>
+                    </tr>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

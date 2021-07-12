@@ -1,0 +1,96 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(246, 247, 251);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    box-shadow: 0 2px 2px grey;
+    background-color: white;
+}
+
+header div {
+    width: 100px;
+    height: 80px;
+}
+
+header div img {
+    width: 100%;
+    height: 75px;
+}
+
+#kafene {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+.divlink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-bottom: 5px solid white;
+    margin-bottom: 5px;
+}
+
+.divlink a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* */
+article{
+    width: 500px;
+    /* height: 300px; */
+    margin: 20px auto;
+    box-shadow: 0 0 2px grey;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+form input {
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+#submit {
+    background-color: green;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 90%;
+    margin-top: 30px;
+    cursor: pointer;
+}

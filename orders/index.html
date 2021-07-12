@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Orders</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="kafene">
+                <img src="/kafene-logo.jpg" alt="kafene-logo">
+            </div>
+            <div id="link">
+                <div class="divlink pagelink"><a href="./index.html">Orders</a></div>
+                <div class="divlink"><a href="/products/index.html">Products</a></div>
+                <div class="divlink"><a href="/users/index.html">Users</a></div>
+            </div>
+        </div>
+        <div id="logout">
+            <a href="../index.html">Logout</a>
+        </div>
+    </header>
+    <main>
+        <h1>Orders</h1>
+        <section id="top">
+            <div id="filter"><h2>Filters</h2>
+                <div>Count:<span id="count"></span></div>
+                <div><input type="checkbox" checked name="new" id="new"><label for="new">New</label></div>
+                <div><input type="checkbox" checked name="packed" id="packed"><label for="packed">Packed</label></div>
+                <div><input type="checkbox" checked name="intransit" id="intransit"><label for="intransit">InTransit</label></div>
+                <div><input type="checkbox" checked name="deliverd" id="deliverd"><label for="deliverd">Delivered</label></div>
+            </div>
+            <div id="orders">
+                <table>
+                    <tr id="head">
+                        <th>ID</th>
+                        <th>Customer</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
